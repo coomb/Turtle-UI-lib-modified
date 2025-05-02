@@ -161,8 +161,8 @@ function library:Window(name, BarColour, LineColour, BackgroundColour)
 
     Window.Name = "Window"
     Window.Parent = Header
-    Window.BackgroundColor3 = BackgroundColour
-    Window.BorderColor3 = BackgroundColour
+    Window.BackgroundColor3 = BackgroundColour or Color3.fromRGB(47, 54, 64)
+    Window.BorderColor3 = BackgroundColour or Color3.fromRGB(47, 54, 64)
     Window.Position = UDim2.new(0, 0, 0, 0)
     Window.Size = UDim2.new(0, 207, 0, 33)
     Window.ZIndex = 1 + zindex
