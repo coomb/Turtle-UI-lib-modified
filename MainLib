@@ -472,7 +472,7 @@ function library:Window(name, BarColour, LineColour, BackgroundColour)
         pastSliders[winCount] = true
     end
 
-    function functions:Dropdown(text, buttons, Colour, BorderColour, callback)
+    function functions:Dropdown(text, Colour, BorderColour, buttons, callback)
         local text = text or "Dropdown"
         local buttons = buttons or {}
         local callback = callback or function() end
