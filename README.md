@@ -1,5 +1,6 @@
 # Basically how this thing works
 
+--[[
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/coomb/Turtle-UI-lib-modified/refs/heads/main/MainLib"))()
 
 local UI = library:Window("Window")
@@ -23,3 +24,4 @@ end)
 dropdown:Button("New button")
 
 dropdown:Remove("Button")
+]]
