@@ -845,7 +845,7 @@ function library:Window(name, BarColour, LineColour, BackgroundColour)
                     ColorSlider.Position = UDim2.new(0, xOffset, 0, 0);
 
                     color3 = Color3.fromHSV(hue, sat, brightness)
-                    ColorPicker.BackgroundColor3  = color3
+                    ColorPicker.BackgroundColor3 = color3
                     callback(color3)
                 else
                     con:Disconnect()
