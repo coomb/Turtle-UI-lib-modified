@@ -2,7 +2,7 @@
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/coomb/Turtle-UI-lib-modified/refs/heads/main/MainLib"))()
 
-local UI = library:Window("Window")
+local UI = library:Window("Window", BarColour, LineColour, BackgroundColour)
 
 UI:Button("Button name", BackgroundColor, BorderColor, function()
 
